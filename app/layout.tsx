@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="px-4">
-          <div className="text-2xl border-b py-4">智慧走读谈话系统</div>
+          <div className="text-2xl border-b py-4 sticky top-0 bg-white text-center text-blue-500 font-bold">智慧走读谈话系统</div>
           {children}
         </div>
      
