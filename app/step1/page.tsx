@@ -27,7 +27,7 @@ const steps = [
 ];
 export default function Step1() {
   const router = useRouter();
-  const [currentStep, setCurrentStep] = useState(0);
+  const [currentStep] = useState(0);
   const [cardNo, setCardNo] = useState("");
   const [name, setName] = useState("");
   const [gender, setGender] = useState("");
@@ -105,7 +105,7 @@ export default function Step1() {
           <div className="flex gap-4 items-center">
             <p className="w-20 text-right"></p>
             <p className="text-red-400 italic">
-              请将相关证件放置设备读取区域，并点击"读取证件信息"按钮
+              请将相关证件放置设备读取区域，并点击&quot;读取证件信息&quot;按钮
             </p>
           </div>
           <div className="flex gap-4 items-center">
